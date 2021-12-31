@@ -1,0 +1,24 @@
+JAMES
+`````
+
+Workshop 4:
+  I wrote the Main GUI form (TravelExperts_WPF/ManageData.xaml), which required
+  integrating the other forms and their logic. I also wrote the logic to commit
+  transactions to the database.
+
+
+
+  ClassLibrary/Enums/DataType.cs
+  ClassLibrary/Enums/Pkg_Prod_SuppTransactionType.cs
+  ClassLibrary/Enums/Prod_SuppTransactionType.cs
+
+  ClassLibrary/Interfaces/ITravelAdmin.cs
+
+  ClassLibrary/Packages_Products_SuppliersDB.cs
+  ClassLibrary/Products_SuppliersDB.cs
+  ClassLibrary/Transactions.cs
+
+  DBTest project
+
+  TravelExperts_WPF/ManageData.xaml
+  TravelExperts_WPF/WPFWindowWrapper.cs

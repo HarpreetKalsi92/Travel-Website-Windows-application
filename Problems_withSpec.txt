@@ -1,0 +1,6 @@
+- Suppliers table
+	- Why is SupName nullable? (Is the SupplierID alone enough info?)
+	- Why is SupplierID not an IDENTITY?
+
+- Products_Suppliers table
+	- Why is ProductId & SupplierId nullable?

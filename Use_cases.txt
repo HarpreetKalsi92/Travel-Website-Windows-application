@@ -1,0 +1,22 @@
+TRAVEL EXPERTS USE CASES:
+-------------------------
+
+Suppliers <---> Products
+
+Packages <---> Suppliers <---> Products
+
+
+- New product, old supplier (INSERT Products, INSERT Products_Suppliers)
+- New product, new supplier (INSERT Products, INSERT Suppliers, INSERT Products_Suppliers)
+- Old product, new supplier (INSERT Suppliers, INSERT Products_Suppliers)
+- Old product, old supplier (INSERT Products_Suppliers)
+
+
+- New product, new supplier, new package (INSERT Products, INSERT Suppliers, INSERT Packages, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- Old product, new supplier, new package (INSERT Suppliers, INSERT Packages, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- New product, old supplier, new package (INSERT Products,  INSERT Packages, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- Old product, old supplier, new package (INSERT Packages, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- New product, new supplier, old package (INSERT Products, INSERT Suppliers, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- Old product, new supplier, old package (INSERT Suppliers, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- New product, old supplier, old package (INSERT Products, INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
+- Old product, old supplier, old package (INSERT Products_Suppliers, INSERT Packages_Products_Suppliers)
